@@ -36,4 +36,4 @@ site
 
 # commit file ignore
 app/commit.json
-config.bat
+.env*

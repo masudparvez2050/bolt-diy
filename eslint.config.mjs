@@ -1,10 +1,7 @@
 import blitzPlugin from '@blitz/eslint-plugin';
 import { jsFileExtensions } from '@blitz/eslint-plugin/dist/configs/javascript.js';
 import { getNamingConventionRule, tsFileExtensions } from '@blitz/eslint-plugin/dist/configs/typescript.js';
-import { createRequire } from 'module';
 
-var require = createRequire(import.meta.url);
-var module = { exports: {} };
 
 export default [
   {
